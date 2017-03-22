@@ -29,7 +29,7 @@ namespace CloudSurvey.Repositories
 
         public SurveyRepository()
         {
-            var connectionString = ConfigurationManager.ConnectionStrings["SurveyConnection"].ConnectionString;
+            var connectionString = ConfigurationManager.ConnectionStrings["itbserver"].ConnectionString;
             this.surveyContext = new SurveyContext(connectionString);
         }
 
