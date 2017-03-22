@@ -23,7 +23,7 @@ namespace CloudSurvey.Repositories
     public class SurveyContext : DbContext
     {
         public SurveyContext()
-            : base(ConfigurationManager.ConnectionStrings["SurveyConnection"].ConnectionString)
+            : base(ConfigurationManager.ConnectionStrings["itbserver"].ConnectionString)
         {
         }
 
